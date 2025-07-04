@@ -183,35 +183,20 @@ const UserGuide = () => {
                   </div>
                 </div>
               </div>
-              <div className="space-y-3">
+              <div className="space-y-3 mt-6">
             <h3 className=" font-bold text-3xl"> Requirements:</h3>
             <ul className="leading-loose text-xl list-disc ml-[30px]">
               <li>
                 {" "}
-                Odoo Versions Supported: 12, 13, 14, 15, 16, 17 (Enterprise or
+                Odoo Versions Supported: 16, 17, 18 (Enterprise or
                 Community)
               </li>
-              <li> Google Cloud Account with BigQuery enabled</li>
+              {/* <li> Google Cloud Account with BigQuery enabled</li> */}
               <li>
                 {" "}
-                Necessary permissions in Odoo and Google Cloud (follow along for
-                more details)
+                Byteloom must be installed on your odoo
               </li>
-              <li>
-                {" "}
-                The module depends on these python libraries
-                'google-cloud-bigquery', 'pandas','pyarrow'.{" "}
-              </li>
-              <li>
-                {" "}
-                If you are on Odoo Sh, add these in your addons repository level
-                requirements.txt.
-              </li>
-              <li>
-                {" "}
-                If you are on on-premises server, install these manually in your
-                Odoo python environment manually and restart the server.
-              </li>
+           
             </ul>
           </div>
             </section>
