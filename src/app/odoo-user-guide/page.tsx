@@ -184,21 +184,31 @@ const UserGuide = () => {
                 </div>
               </div>
               <div className="space-y-3 mt-6">
-            <h3 className=" font-bold text-3xl"> Requirements:</h3>
-            <ul className="leading-loose text-xl list-disc ml-[30px]">
-              <li>
-                {" "}
-                Odoo Versions Supported: 16, 17, 18 (Enterprise or
-                Community)
-              </li>
-              {/* <li> Google Cloud Account with BigQuery enabled</li> */}
-              <li>
-                {" "}
-                Byteloom must be installed on your odoo
-              </li>
-           
-            </ul>
-          </div>
+                <h3 className=" font-bold text-3xl"> Requirements:</h3>
+                <ul className="leading-loose text-xl list-disc ml-[30px]">
+                  <li>
+                    {" "}
+                    Odoo Versions Supported: 16, 17, 18 (Enterprise or
+                    Community)
+                  </li>
+                  {/* <li> Google Cloud Account with BigQuery enabled</li> */}
+                  <li> Byteloom must be installed on your odoo</li>
+                </ul>
+              </div>
+              <div className="space-y-3 mt-6">
+                <h3 className=" font-bold text-3xl"> Watch Demo:</h3>
+                <div className="flex justify-center">
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/VMFr4Hph8AQ?si=O0lxh5iax_e7xYEu"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
             </section>
 
             <hr className="border-gray-200 dark:border-gray-700" />
@@ -760,7 +770,7 @@ const UserGuide = () => {
                     alt=""
                     width="600px"
                   />
-                   <img
+                  <img
                     className="shadow-xl rounded-lg mx-auto"
                     src="/user-guide/charts.jpg"
                     alt=""
@@ -838,9 +848,14 @@ const UserGuide = () => {
                 Need Help?
               </h2>
               <div className="grid md:grid-cols-3 gap-6">
-                <a className="text-center" href="https://apps.odoo.com/apps/modules/18.0/byteloom_generative_dashboard">
+                <a
+                  className="text-center"
+                  href="https://apps.odoo.com/apps/modules/18.0/byteloom_generative_dashboard"
+                >
                   <Book className="text-blue-600 mb-3 mx-auto" size={32} />
-                  <h3 className="font-semibold text-lg mb-2">Full Module Information</h3>
+                  <h3 className="font-semibold text-lg mb-2">
+                    Full Module Information
+                  </h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">
                     View detailed documentation and guides
                   </p>
