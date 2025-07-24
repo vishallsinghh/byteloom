@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block ml-10">
                 <div className="flex w-full justify-center items-center space-x-4">
-                  <a href="#product" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Product</a>
+                  <a href="/create-connection" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Connection</a>
                   <a href="/odoo-user-guide" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Guide</a>
                   <a href="/about-us" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">About Us</a>
                   <a href="/contact-us" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact Us</a>
