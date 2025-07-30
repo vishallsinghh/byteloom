@@ -195,6 +195,44 @@ const UserGuide = () => {
                   <li> Byteloom must be installed on your odoo</li>
                 </ul>
               </div>
+              <div className="relative space-y-3 mt-6 p-6 bg-white rounded-lg shadow">
+              
+
+                <h3 className="font-bold text-3xl">Licensing</h3>
+                <p className="text-lg">
+                  <strong className="font-medium underline">Note:</strong>{" "}
+                  you must complete licensing before you can use the module.
+                </p>
+
+                <ul className="leading-loose text-lg list-disc ml-[30px]">
+                  <li>
+                    Send your Staging URL, Production URL, and the
+                    Invoice generated after purchase to{" "}
+                    <a
+                      href="mailto:hello@byteloom.ai"
+                      className="text-blue-600 underline"
+                    >
+                      hello@byteloom.ai
+                    </a>
+                    .
+                  </li>
+                  <li>We will email you the licensing key.</li>
+                  <li>
+                    In Odoo, go to <em>Settings &gt; Apps &gt; ByteLoom</em> and
+                    enter the licensing key.
+                  </li>
+                </ul>
+
+                <p className="text-xl italic w-full text-center">
+                   <img
+                      className="shadow-xl rounded-lg mx-auto"
+                      src="/user-guide/licensing.jpeg"
+                      alt=""
+                      width="600px"
+                    />
+                </p>
+              </div>
+
               <div className="space-y-3 mt-6">
                 <h3 className=" font-bold text-3xl"> Watch Demo:</h3>
                 <div className="flex justify-center">
